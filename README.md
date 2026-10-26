@@ -25,3 +25,16 @@ A Aurora recebe pagamentos de mais de 200 clientes por diversos meios (Pix, bole
 ## Stack
 
 Python (openpyxl) para construção do dashboard no Excel; HTML, CSS e D3.js para o painel interativo. Dados 100% sintéticos, gerados para fins de portfólio.
+
+## Reprodutibilidade
+
+A pasta `scripts/` tem o código que gera as duas peças de análise a partir da aba "Recebimentos":
+
+- `scripts/build_dashboard.py` — recria a aba "Dashboard" no Excel (KPIs, tabelas de apoio e os 4 gráficos com gradiente) a partir dos dados já lançados.
+- `scripts/extract_data.py` — exporta a aba "Recebimentos" para JSON, no mesmo formato usado como dado de entrada do painel HTML.
+
+```bash
+pip install -r requirements.txt
+python scripts/build_dashboard.py Controle_Recebimentos.xlsx
+python scripts/extract_data.py Controle_Recebimentos.xlsx transacoes.json
+```
