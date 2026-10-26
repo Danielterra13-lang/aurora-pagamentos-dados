@@ -8,7 +8,7 @@ Projeto de portfólio simulando a rotina de conciliação financeira e análise 
 
 ## O problema
 
-A Aurora recebe pagamentos de mais de 200 clientes por diversos meios (Pix, boleto, transferência), e cada pagamento chega como um comprovante solto (PDF, foto ou print). Antes de qualquer análise, era preciso transformar essa pilha de comprovantes em dados estruturados e confiáveis.
+A Aurora recebe pagamentos de 14 clientes por diversos meios (Pix, boleto, transferência), e cada pagamento chega como um comprovante solto (PDF, foto ou print). No semestre foram 230 comprovantes, que viraram 222 lançamentos depois de tirar duplicados e ilegíveis. Antes de qualquer análise, era preciso transformar essa pilha de comprovantes em dados estruturados e confiáveis.
 
 ## O que foi feito
 
