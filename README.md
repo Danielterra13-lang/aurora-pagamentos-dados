@@ -2,6 +2,10 @@
 
 Projeto de portfólio simulando a rotina de conciliação financeira e análise de recebimentos de uma distribuidora fictícia (Distribuidora Aurora), cobrindo o primeiro semestre de 2026.
 
+**Painel ao vivo:** https://danielterra13-lang.github.io/aurora-pagamentos-dados/Painel_Aurora.html
+
+![Painel Aurora](assets/painel-preview.png)
+
 ## O problema
 
 A Aurora recebe pagamentos de mais de 200 clientes por diversos meios (Pix, boleto, transferência), e cada pagamento chega como um comprovante solto (PDF, foto ou print). Antes de qualquer análise, era preciso transformar essa pilha de comprovantes em dados estruturados e confiáveis.
@@ -14,6 +18,7 @@ A Aurora recebe pagamentos de mais de 200 clientes por diversos meios (Pix, bole
 
 ## Como abrir
 
+- **Painel online:** https://danielterra13-lang.github.io/aurora-pagamentos-dados/Painel_Aurora.html
 - `Controle_Recebimentos.xlsx` — abrir no Excel (ou LibreOffice Calc), aba "Dashboard".
 - `Painel_Aurora.html` — baixar e abrir direto no navegador, sem instalar nada.
 
